@@ -1,6 +1,6 @@
 {
 	"name": "<<PackageId>>",
-	"version": "1.0.0-RC3",
+	"version": "1.0.0-RC1",
 	"displayName": "<<Package Name>>",
 	"description": "<<PackageDescription>>",
 	"license": "LGPL-3.0-or-later",
