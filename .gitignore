@@ -2,7 +2,6 @@
 # ----------------------- #
 .vs/*
 
-!*.csproj
 !*.sln
 
 *.VC.db
@@ -12,6 +11,13 @@
 *.suo
 *.user
 *.tmp
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
 
 # -----------------------------------------
 
@@ -38,6 +44,7 @@ ehthumbs.db
 
 # Windows Genrated Files #
 # ---------------------- #
+
 # Folder config file
 Desktop.ini
 
@@ -56,23 +63,22 @@ $RECYCLE.BIN/
 
 
 # Linux Genrated Files #
-# ---------------------- #
+# -------------------- #
 .fuse_hidden*
 .directory
 .Trash-*
 .nfs*
 # -----------------------------------------
 
-# User-specific files
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
 
-# User-specific files (MonoDevelop/Xamarin Studio)
+# User-specific files (MonoDevelop/Xamarin Studio) #
+# ------------------------------------------------ #
+
 *.userprefs
 
 # Build results
+# ---------------------- #
+
 **/[Dd]ebug/
 **/[Dd]ebugPublic/
 **/[Rr]elease/
@@ -90,3 +96,11 @@ $RECYCLE.BIN/
 !**/.vscode/launch.json
 !**/.vscode/settings.json
 !**/.vscode/tasks.json
+
+# local settings file for Azure Function and Application Project
+**/local.settings.js*
+**/local.settings*.js*
+
+# xUnit Test Project local setting file
+**/appsettings.local*.js*
+!**/appsettings.js*
