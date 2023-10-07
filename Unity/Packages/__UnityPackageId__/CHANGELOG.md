@@ -1,3 +1,5 @@
-## 1.0.0-RC1
+# <<Project-Name>>
+
+## v1.0.0 (YYYY.MM.DD)
 ### Features
-* Initial Project Commit
+- Initial Project Commit
